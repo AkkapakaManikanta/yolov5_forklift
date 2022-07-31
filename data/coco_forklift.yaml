@@ -1,0 +1,10 @@
+
+train: ./data/fork_lift/images/train/  # train images (relative to 'path') 
+val: ./data/fork_lift/images/val/  # val images (relative to 'path') 
+test: ./data/fork_lift/images/test/  # test images (optional)
+
+# Classes
+nc: 2  # number of classes
+names: [ 'forklift', 'person' ] # class names
+
+
